@@ -1,0 +1,170 @@
+/*  Base styles, variables, mixins, */
+/* Variables */
+/* mixin */
+/* BlockTags */
+body {
+  font: "https://fonts.googleapis.com/css?family=Open+Sans:400,800";
+}
+
+h1 {
+  font-size: 2.25rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+a:hover {
+  color: #000000;
+}
+
+/* nav */
+.navbar {
+  background: #00aeef;
+  border-color: #00aeef;
+  min-height: 80px;
+  padding-top: 10px;
+  margin: 0;
+}
+.navbar .navbar-brand {
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #00aeef;
+}
+.navbar .navbar-brand:hover {
+  color: #000000;
+}
+.navbar .nav li a {
+  color: #FFFFFF;
+  font-size: 1.75rem;
+}
+.navbar .nav li a:hover, .navbar .nav li a:focus {
+  color: #000000;
+}
+.navbar .navbar-toggle {
+  border-color: #FFFFFF;
+}
+.navbar .navbar-toggle .icon-bar {
+  background: #FFFFFF;
+}
+
+/* slide */
+#slideImages {
+  margin-bottom: 30px;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+
+/* for small devices */
+@media (max-width: 768px) {
+  .navbar-collapse {
+    border-color: #FFFFFF;
+    background-color: #005e80;
+  }
+
+  .nav li {
+    border-bottom: 0.5px solid #FFFFFF;
+  }
+  .nav li a:hover {
+    color: #07db61;
+  }
+}
+@media (max-width: 480px) {
+  .navbar-brand {
+    margin-bottom: 20px;
+  }
+}
+/* Footer */
+footer {
+  background-color: #00aeef;
+  min-height: 80px;
+}
+footer .footer-copyright {
+  padding-top: 30px;
+  color: #FFFFFF;
+}
+
+/* home */
+/* content */
+.card-index {
+  border: 10px solid #00aeef !important;
+  margin: 10px 0 50px 0;
+  min-height: 500px;
+}
+
+.text-left {
+  padding-left: 15px;
+}
+
+.card-img-top {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.card-link {
+  color: #000000;
+  display: block;
+  margin: 10px 25%;
+}
+
+.card-link:hover {
+  color: #00aeef;
+  text-decoration-line: none;
+}
+
+/* about*/
+.card-about {
+  border: 2px solid #00aeef;
+  margin: 10px 0 50px 0;
+}
+.card-about .btn-info {
+  background: #00aeef;
+  color: #FFFFFF;
+  width: 90px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.card-about .btn-info:hover {
+  background: #07db61;
+  color: #000000;
+}
+
+/* contact */
+form {
+  padding: 25px;
+  background-color: #00aeef;
+  margin: 10px 0 50px 0;
+}
+form .form-control {
+  border: 3px solid #000000;
+}
+form .form-group {
+  padding: 10px;
+}
+form .form-group label {
+  color: #FFFFFF;
+  font-size: 1.4375rem;
+}
+form .form-group .btn-success {
+  background: #07db61;
+  border-color: #07db61;
+  color: #FFFFFF;
+}
+form .form-group .btn-success:hover {
+  background: #FFFFFF;
+  color: #000000;
+}
+
+/*# sourceMappingURL=styles.css.map */

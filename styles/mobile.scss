@@ -1,0 +1,32 @@
+*=====================================================
+ Media Queries       
+=====================================================*/
+@media only screen and (max-width : 1200px) {
+
+}
+
+@media only screen and (max-width : 979px) {
+
+}
+
+@media only screen and (max-width : 767px) {
+    
+    .navbar{
+        .navbar-brand {
+            @include font-size(35px);
+            text-align: center;
+            
+             
+        }
+
+}
+
+}
+
+@media only screen and (max-width : 480px) {
+
+}
+
+@media only screen and (max-width : 320px) {
+
+}

@@ -1,0 +1,84 @@
+
+
+/* nav */
+.navbar {
+     background: $blue;
+     border-color: $blue;
+     min-height: 80px;
+     padding-top: 10px;
+     margin:0;
+    
+    .navbar-brand {
+        @include font-size(36px);
+        font-weight: bold; 
+        color: $white;
+        background-color: $blue;
+
+     }
+    .navbar-brand:hover{
+         color: $black;
+     }
+   
+    .nav li a {
+        color: $white;
+        @include font-size(28px);    
+        &:hover,
+        &:focus{
+            color: $black;
+        }
+    }
+    
+    .navbar-toggle{
+      border-color: $white;
+        
+    .icon-bar {
+    background:$white;
+    }
+    }
+ }
+  
+    
+
+ 
+/* slide */
+#slideImages{
+    margin-bottom: 30px;
+    
+}
+.img-responsive{
+    width: 100%;  
+    height: auto;
+}
+
+
+
+/* for small devices */
+
+@media(max-width:768px){
+    .navbar-collapse{
+        border-color: $white;
+        background-color:	 #005e80;
+    }
+    .nav li{
+        border-bottom: 0.5px solid $white;
+         a:hover{
+             color: $green;
+        }
+    }
+        
+    }
+
+
+@media(max-width : 480px){
+     .navbar-brand {
+         margin-bottom: 20px;
+     }
+    
+    
+}
+
+
+ @media(max-width : 320px){
+    
+     
+}

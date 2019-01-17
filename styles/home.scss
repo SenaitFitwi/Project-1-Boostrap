@@ -1,0 +1,30 @@
+/* home */
+
+/* content */
+.card-index{
+    border: 10px solid $blue !important;
+    margin: 10px 0 50px 0;
+    min-height: 500px;
+}
+.text-left{
+    padding-left: 15px;
+}
+    .card-img-top{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+   
+.card-link{
+     color: $black;
+     display: block;
+     margin: 10px 25%
+    
+}
+
+.card-link:hover{
+    color: $blue;
+    text-decoration-line:none;
+}
+
+
+

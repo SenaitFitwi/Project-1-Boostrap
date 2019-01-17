@@ -1,0 +1,27 @@
+/* contact */
+form{
+    padding: 25px;
+    background-color: $blue;
+    margin: 10px 0 50px 0;
+    
+    .form-control{
+        border: 3px solid $black;
+    }
+    .form-group{
+        padding: 10px;
+     label{
+        color: $white;
+        @include font-size(23px);
+    
+    }
+    .btn-success{
+            background: $green;
+            border-color: $green;
+            color: $white;
+        }
+    .btn-success:hover{
+            background: $white;
+            color: $black;
+        }
+    }
+}
